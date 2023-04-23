@@ -4,8 +4,8 @@ from evo import entry_points
 from evo import main_rpe
 import argcomplete
 
-model_prefix="Ours"
-main_rpe.est_file = r"source/Ours.kitti"
+model_prefix="SC_Depthv1"
+main_rpe.est_file = r"source/SC_Depthv1.kitti"
 main_rpe.ref_file = "source/Ground_Truth.kitti"
 main_rpe.model_prefix = model_prefix
 
